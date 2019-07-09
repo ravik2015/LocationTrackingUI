@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maps/ui/dashBoard.dart';
+import 'package:maps/ui/DashBoard.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'LocationUI',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: DashBoardPage(),
     );
